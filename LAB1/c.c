@@ -36,7 +36,7 @@ int main()
 	sockfd = socket(AF_INET, SOCK_STREAM, 0); 
 	if (sockfd == -1) { 
 		printf("socket creation failed...\n"); 
-		exit(0); 
+		exit(0);  
 	} 
 	else
 		printf("Socket successfully created..\n"); 
